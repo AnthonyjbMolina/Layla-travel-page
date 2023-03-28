@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'raleway' , sans-serif;
+}
+
+
+body {
+    background-color: bisque;
+}
+
+
+
+.container {
+    text-align: center;
+    margin-top: 10rem;
+}
+
+
+ .container h1  {
+    font-size: 4rem;
+    color: #eb9cc2;
+   margin-top: 12rem;
+   margin-bottom: auto;  
+ }
+
+
+
+.container h2 {
+    font-size: 1.5rem;
+    color: rgb(5, 5, 5);
+    margin-bottom: 3rem;
+    margin-right: 20rem;
+}
+
+
+
+ .about-me p {
+    font-size: 1.5rem;
+    color: rgb(108, 100, 100);
+    margin-top: 1em;
+ }
+
+
+
+ .about-me {
+    display: flex;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+ }
+
+
+
+.about-me img {
+    flex: 0 50%;
+    max-width: 50%;
+    height: 20rem;
+    width: 25rem;
+    box-shadow: 2px 4px 8px rgb(78, 67, 67);
+    border-radius: 20px;
+    object-fit: cover;
+    margin-top: 3rem;
+}
+
+
+
+.about-me img:hover {
+    transform: scale(1.10);
+}
+
+
+
+.content {
+    padding: 3rem;
+}
+ 
